@@ -1,0 +1,19 @@
+baseurl = "/"
+title = "My blog"
+theme = "ghostwriter"
+
+[Params]
+   mainSections = ["post"]
+   intro = true
+   headline = "Digital Notebook of @linus.codes"
+   description = "This is my digital Notebook aka blog to frequently share some thoughts on the internet."
+   github = "https://github.com/linuscodes"
+   twitter = "https://twitter.com/linuscodes"
+   instagram = "https://instagram.com/linus.codes"
+   email = "moin@linuscodes.com"
+   opengraph = true
+   shareTwitter = true
+   dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+   post = "/:filename/"
