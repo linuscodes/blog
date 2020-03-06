@@ -1,6 +1,6 @@
-baseurl = "/"
-title = "My blog"
-theme = "ghostwriter"
+baseurl = "/blog/"
+title = "Digital Notebook of @linus.codes"
+theme = "linuscodes"
 
 [Params]
    mainSections = ["post"]

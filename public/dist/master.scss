@@ -1,0 +1,101 @@
+@import url('https://use.typekit.net/sdu6ktg.css');
+@import url('https://use.typekit.net/wcf1dzv.css');
+
+$dark: #000;
+$light: #fff;
+$sans: 'Montserrat';
+$serif: 'p22-mackinac-pro';
+$aktivGroteskExtended: 'aktiv-grotesk-extended';
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   appearance: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: $serif;
+}
+
+p {
+   font-family: $sans;
+}
+
+a {
+   font-family: $sans;
+   color: $dark;
+}
+
+img {
+   max-width: 100%;
+}
+
+.post-header, .site-title-wrapper {
+   margin-bottom: 80px;
+
+   .site-title {
+      display: block;
+      float: left;
+      
+      a {
+         font-family: $aktivGroteskExtended;
+         font-size: 50px;
+         text-decoration: none;
+      }
+   }
+
+   .social-links {
+      list-style: none;
+      display: block;
+
+      li {
+         float: left;
+         margin-right: 10px;
+         padding: 10px;
+         
+         a {
+            font-size: 20px;
+            color: #c4c4c4;
+         }
+      }
+   }
+}
+
+.container {
+   padding: 50px 10%;
+}
+
+.share {
+   display: block;
+   margin-top: 50px;
+
+   a {
+      &.icon-twitter {
+         background: #1a91da;
+         color: $light;
+         text-decoration: none;
+         padding: 10px;
+         border-radius: 5px;
+      }
+   }
+}
+
+// .post-featured-image {
+
+// }
+
+// @media (prefers-color-scheme: dark) {
+//    body {
+//       background: $dark;
+//    }
+// }
+
+@media screen and (max-width: 500px) {
+   .post-header, .site-title-wrapper {
+      .site-title a {
+         font-size: 35px;
+      }
+   }
+}

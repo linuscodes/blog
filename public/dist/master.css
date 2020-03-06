@@ -1,0 +1,84 @@
+@import url("https://use.typekit.net/sdu6ktg.css");
+@import url("https://use.typekit.net/wcf1dzv.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "p22-mackinac-pro";
+}
+
+p {
+  font-family: "Montserrat";
+}
+
+a {
+  font-family: "Montserrat";
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.post-header, .site-title-wrapper {
+  margin-bottom: 80px;
+}
+
+.post-header .site-title, .site-title-wrapper .site-title {
+  display: block;
+  float: left;
+}
+
+.post-header .site-title a, .site-title-wrapper .site-title a {
+  font-family: "aktiv-grotesk-extended";
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.post-header .social-links, .site-title-wrapper .social-links {
+  list-style: none;
+  display: block;
+}
+
+.post-header .social-links li, .site-title-wrapper .social-links li {
+  float: left;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.post-header .social-links li a, .site-title-wrapper .social-links li a {
+  font-size: 20px;
+  color: #c4c4c4;
+}
+
+.container {
+  padding: 50px 10%;
+}
+
+.share {
+  display: block;
+  margin-top: 50px;
+}
+
+.share a.icon-twitter {
+  background: #1a91da;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .post-header .site-title a, .site-title-wrapper .site-title a {
+    font-size: 35px;
+  }
+}
+/*# sourceMappingURL=master.css.map */
