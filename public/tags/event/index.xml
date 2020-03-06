@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>event on Digital Notebook of @linus.codes</title>
+    <link>/blog/tags/event/</link>
+    <description>Recent content in event on Digital Notebook of @linus.codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 16 Mar 2019 09:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Social Developers Club Conference 2019</title>
+      <link>/blog/sdc-conference-2019/</link>
+      <pubDate>Sat, 16 Mar 2019 09:00:00 +0000</pubDate>
+      
+      <guid>/blog/sdc-conference-2019/</guid>
+      <description>A gorgeous day is over and I am still overwhelmed by this awesome event. It was a great atmosphere because of all the kind people hanging out at the first SocialDevelopersClub Meeting.
+2 weeks ago, @binicodes sent me a message on Instagram and asked me to join the first meetup by SDC. So, why not? I looked around at their website and immediately, I was really excited about this event, which happened yesterday.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,22 +1,20 @@
 <footer class="post-footer clearfix">
-   {{ if .Params.tags }}
-   <p class="post-tags">
-      <span>Tagged:</span>
-      {{ $len := len .Params.tags }}
-      {{ range $index, $tag := .Params.tags }}
-      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-      {{- if lt $index (sub $len 1) -}}, {{ end }}
-      {{ end }}
-   </p>
-   {{ end}}
-
    <div class="post-navigation">
       {{ partial "post-navigation.html" . }}
    </div>
 
+   {{ if .Params.tags }}
+      <div class="post-tags">
+         {{ $len := len .Params.tags }}
+         {{ range $index, $tag := .Params.tags }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag-link">{{ . }}</a>
+         {{ end }}
+      </div>
+   {{ end}}
+
    <div class="share">
       {{ if or (not (isset .Site.Params "sharetwitter")) .Site.Params.shareTwitter }}
-      <a class="icon-twitter" href="https://twitter.com/share?text=Check%20out%20the%20new%20post%20by%20@linus.codes:%20'{{ .Title }}'%20—%20{{ .Permalink }}&url={{ .Permalink }}"
+      <a class="icon-twitter" href="https://twitter.com/share?text=Check%20out%20the%20new%20post%20by%20@linuscodes:%20'{{ .Title }}'%20—%20&url=https://linuscodes.com{{ .Permalink }}"
          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
          <i class="fa fa-twitter"></i>
          <span class="hidden">Share on Twitter</span>

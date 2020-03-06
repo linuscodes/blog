@@ -13,7 +13,7 @@ theme = "linuscodes"
    email = "moin@linuscodes.com"
    opengraph = true
    shareTwitter = true
-   dateFormat = "Mon, Jan 2, 2006"
+   dateFormat = "Monday, January 2, 2006"
 
 [Permalinks]
    post = "/:filename/"

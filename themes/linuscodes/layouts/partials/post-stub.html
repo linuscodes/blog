@@ -1,9 +1,26 @@
 <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
-    <a href="{{ .Permalink }}" itemprop="url" title="Go to post detail">
-        <h4 class="post-stub-title" itemprop="name">{{ .Title }}</h4>
-        <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">Published {{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}</time>
-        {{ with .Params.featured }}
-            <span class="post-stub-tag">Featured</span>
-        {{ end }}
-    </a>
+   <a href="{{ .Permalink }}" itemprop="url" title="Go to post detail">
+
+      {{ with .Params.Image }}
+         <div class="featured-image-wrapper">
+            <div class="featured-image" style="background-image: url('{{ . }}')"></div>
+         </div>
+      {{ end }}
+      
+      <h4 class="post-stub-title" itemprop="name">
+         {{ .Title }}
+      </h4>
+
+      <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">
+         Published {{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}
+      </time>
+
+      {{ if .Description }}
+         <p class="post-stub-description">{{ .Description }}</p>
+      {{ end }}
+
+      {{ with .Params.featured }}
+         <span class="post-stub-tag">Featured</span>
+      {{ end }}
+   </a>
 </li>

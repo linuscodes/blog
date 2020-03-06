@@ -1,6 +1,9 @@
-{{ if .PrevInSection }}
-<a href="{{.PrevInSection.Permalink}}">Previous Post</a>
-{{ end }}
-{{ if .NextInSection }}
-<a href="{{.NextInSection.Permalink}}">Next Post</a>
-{{ end }}
+<div class="prev-next-navigation">
+   {{ if .PrevInSection }}
+      <a href="{{.PrevInSection.Permalink}}" class="btn prev">Previous Post</a>
+   {{ end }}
+
+   {{ if .NextInSection }}
+      <a href="{{.NextInSection.Permalink}}" class="btn next">Next Post</a>
+   {{ end }}
+</div>

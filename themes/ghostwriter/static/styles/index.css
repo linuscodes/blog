@@ -2,18 +2,24 @@
 /* ============================================================ */
 /* Base */
 /* ============================================================ */
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  background: #FEFEFE;
+  background: #fefefe;
   color: #424242;
   font-family: -apple-system, "Open Sans", arial, sans-serif;
   font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 20px;
   text-transform: none;
 }
@@ -52,35 +58,41 @@ p {
 }
 
 a {
-  color: #F03838;
+  color: #f03838;
   text-decoration: none;
 }
 
-ul, ol {
+ul,
+ol {
   line-height: 1.4;
   margin: 0 0 20px;
 }
 
-ul ul, ul ol, ol ul, ol ol {
+ul ul,
+ul ol,
+ol ul,
+ol ol {
   margin: 10px 0 0 20px;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   margin: 0 0 2px;
 }
 
-ul li:last-of-type, ol li:last-of-type {
+ul li:last-of-type,
+ol li:last-of-type {
   margin-bottom: 0;
 }
 
 blockquote {
-  border-left: 1px dotted #F03838;
+  border-left: 1px dotted #f03838;
   margin: 40px 0;
   padding: 5px 30px;
 }
 
 blockquote p {
-  color: #AEADAD;
+  color: #aeadad;
   display: block;
   font-style: italic;
   margin: 0;
@@ -109,8 +121,8 @@ img[src$="align-right"] {
 }
 
 pre {
-  background: #F1F0EA;
-  border: 1px solid #DDDBCC;
+  background: #f1f0ea;
+  border: 1px solid #dddbcc;
   border-radius: 3px;
   margin: 0 0 20px;
   overflow-x: auto;
@@ -125,8 +137,8 @@ pre code {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #F03838;
-  background-color: #F1F0EA;
+  color: #f03838;
+  background-color: #f1f0ea;
   border-radius: 4px;
 }
 
@@ -156,23 +168,23 @@ table td {
 }
 
 table tr {
-  border-bottom: 1px dotted #AEADAD;
+  border-bottom: 1px dotted #aeadad;
 }
 
 ::-moz-selection {
-  background: #FFF5B8;
+  background: #fff5b8;
   color: #000;
   display: block;
 }
 
 ::selection {
-  background: #FFF5B8;
+  background: #fff5b8;
   color: #000;
   display: block;
 }
 
 ::-moz-selection {
-  background: #FFF5B8;
+  background: #fff5b8;
   color: #000;
   display: block;
 }
@@ -221,7 +233,7 @@ table tr {
   background: #303030;
   border: none;
   border-radius: 3px;
-  color: #FEFEFE;
+  color: #fefefe;
   font-size: 14px;
   font-weight: 700;
   padding: 10px 12px;
@@ -229,12 +241,12 @@ table tr {
 }
 
 .button:hover {
-  background: #F03838;
+  background: #f03838;
 }
 
 .button-square {
-  background: #F03838;
-  color: #FFF;
+  background: #f03838;
+  color: #fff;
   float: left;
   font-size: 17px;
   margin: 0 0 0 10px;
@@ -278,8 +290,8 @@ table tr {
 
 .site-title a {
   float: left;
-  background: #F03838;
-  color: #FEFEFE;
+  background: #f03838;
+  color: #fefefe;
   padding: 5px 10px 6px;
 }
 
@@ -347,7 +359,7 @@ table tr {
 .post-date,
 .post-reading,
 .blog-description {
-  color: #AEADAD;
+  color: #aeadad;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -357,13 +369,13 @@ table tr {
 .post-date a,
 .post-reading a,
 .blog-description a {
-  color: #AEADAD;
+  color: #aeadad;
 }
 
 .post-date a:hover,
 .post-reading a:hover,
 .blog-description a:hover {
-  color: #F03838;
+  color: #f03838;
 }
 
 .post-line:after {
@@ -375,7 +387,7 @@ table tr {
 }
 
 .post-content a:hover {
-  border-bottom: 1px dotted #F03838;
+  border-bottom: 1px dotted #f03838;
   padding: 0 0 2px;
 }
 
@@ -402,7 +414,7 @@ table tr {
 
 .post-tags,
 .share {
-  color: #AEADAD;
+  color: #aeadad;
   font-size: 14px;
 }
 
@@ -425,8 +437,8 @@ table tr {
 }
 
 .share a {
-  background: #F03838;
-  color: #FFF;
+  background: #f03838;
+  color: #fff;
   display: inline-block;
   font-size: 16px;
   margin-left: 5px;
@@ -447,8 +459,8 @@ table tr {
 .newer-posts,
 .older-posts {
   float: left;
-  background: #F03838;
-  color: #FEFEFE;
+  background: #f03838;
+  color: #fefefe;
   font-size: 14px;
   font-weight: 600;
   margin: 0 5px;
@@ -492,19 +504,19 @@ table tr {
 }
 
 .post-stub a:hover {
-  background: #FCF5F5;
-  color: #F03838;
+  background: #fcf5f5;
+  color: #f03838;
   padding: 20px 12px;
 }
 
 .post-stub a:hover .post-stub-tag {
-  background: #F03838;
+  background: #f03838;
 }
 
 .post-stub-tag {
   background: #303030;
   border-radius: 3px;
-  color: #FFF;
+  color: #fff;
   float: right;
   font-size: 10px;
   margin: 7px 0 0;
@@ -578,7 +590,7 @@ table tr {
 }
 
 .author-meta {
-  color: #AEADAD;
+  color: #aeadad;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -597,11 +609,11 @@ table tr {
 }
 
 .author-meta a {
-  color: #AEADAD;
+  color: #aeadad;
 }
 
 .author-meta a:hover {
-  color: #F03838;
+  color: #f03838;
 }
 
 .author-bio {
@@ -615,7 +627,7 @@ table tr {
 /* ============================================================ */
 .footer {
   background: #303030;
-  color: #D3D3D3;
+  color: #d3d3d3;
   height: 265px;
   margin-top: 95px;
   overflow: auto;
@@ -644,24 +656,24 @@ table tr {
 }
 
 .footer-copyright a:hover {
-  color: #FEFEFE;
+  color: #fefefe;
 }
 
 /* ============================================================ */
 /* NProgress */
 /* ============================================================ */
 #nprogress .bar {
-  background: #F03838;
+  background: #f03838;
 }
 
 #nprogress .peg {
-  -webkit-box-shadow: 0 0 10px #F03838, 0 0 5px #F03838;
-          box-shadow: 0 0 10px #F03838, 0 0 5px #F03838;
+  -webkit-box-shadow: 0 0 10px #f03838, 0 0 5px #f03838;
+          box-shadow: 0 0 10px #f03838, 0 0 5px #f03838;
 }
 
 #nprogress .spinner-icon {
-  border-top-color: #F03838;
-  border-left-color: #F03838;
+  border-top-color: #f03838;
+  border-left-color: #f03838;
 }
 
 /* ============================================================ */
@@ -674,13 +686,15 @@ table tr {
 }
 
 @media only screen and (max-width: 600px) {
-  h1, h2 {
+  h1,
+  h2 {
     margin-bottom: 20px;
   }
   p {
     margin-bottom: 20px;
   }
-  ul, ol {
+  ul,
+  ol {
     margin-bottom: 20px;
   }
   img {

@@ -1,5 +1,9 @@
-{{ range .Site.Menus.main.ByWeight }}
-    <li class="site-nav-item">
-        <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
-    </li>
+{{ range .Site.Menus.main }}
+   <li class="site-nav-item">
+      <a title="{{ .Name }}" href="{{ .URL }}">
+         <span data-content="{{ .Name }}">
+            {{ .Name }}
+         </span>
+      </a>
+   </li>
 {{ end }}

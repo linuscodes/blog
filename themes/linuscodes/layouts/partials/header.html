@@ -30,73 +30,100 @@
    <body>
       {{ template "_internal/google_analytics.html" . }}
 
-      <div id="wrapper">
-         <header class="site-header">
-            <div class="container">
-               <div class="site-title-wrapper">
+      <nav class="main">
+         <div class="branding">
+            <h1>
+               Linus Rogge
+            </h1>
+         </div>
 
-                  <ul class="social-links">
-                     <li>
-                        <a class="button-square" href="{{ .Site.BaseURL }}index.xml"><i class="fa fa-rss"></i></a>
-                     </li>
-                     
-                     {{ with .Site.Params.twitter }}
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="{{ . }}" rel="me">
-                           <i class="fa fa-twitter"></i>
-                        </a>
-                     </li>
-                     {{ end }}
-                     
-                     {{ with .Site.Params.github }}
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="{{ . }}" rel="me">
-                           <i class="fa fa-github-alt"></i>
-                        </li>
-                        </a>
-                     {{ end }}
-                     
-                     {{ with .Site.Params.instagram }}
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Instagram" title="Instagram" href="{{ . }}" rel="me">
-                           <i class="fa fa-instagram"></i>
-                        </a>
-                     </li>
-                     {{ end }}
-                     
-                     {{ with .Site.Params.linkedin }}
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="LinkedIn" title="LinkedIn" href="{{ . }}" rel="me">
-                           <i class="fa fa-linkedin"></i>
-                        </a>
-                     </li>
-                     {{ end }}
-                     
-                     {{ with .Site.Params.email }}
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Email" title="Email"
-                        href="mailto:{{ . }}">
-                           <i class="fa fa-envelope"></i>
-                        </a>
-                     </li>
-                     {{ end }}
-                  </ul>
+         <div class="sites">
+            <!-- <ul>
+               {{ partial "navigation.html" . }}
+            </ul> -->
 
-                  {{ with .Site.Params.logo }}
-                     <a class="site-logo" title="{{ .Title }}" href="{{ .Site.BaseURL }}">
-                        <img src="{{ . }}" alt="{{ .Title }}" />
-                     </a>
-                  {{ else }}
-                     <h1 class="site-title">
-                        <a title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-                     </h1>
-                  {{ end }}
-               </div>
+            <ul>
+               <li>
+                  <a href="/">
+                     <span data-content="home">
+                        home
+                     </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/meine-projekte/">
+                     <span data-content="meine projekte">
+                        meine projekte
+                     </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/blog/" class="active">
+                     <span data-content="blog">blog</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/linus-also-ich/">
+                     <span data-content="linus, also ich">linus, also ich</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/antickern/">
+                     <span data-content="antickern">antickern</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
 
-               <ul class="site-nav">
-                  {{ partial "navigation.html" . }}
-               </ul>
+         <div class="socials">
+            <ul>
+               <li>
+                  <a class="button-square" href="{{ .Site.BaseURL }}index.xml">
+                     <span data-content="RSS Feed">RSS Feed</span>
+                  </a> 
+               </li>
+
+               <li>
+                  <a href="https://instagram.com/linus.codes" target="_blank">
+                     <span data-content="Instagram">
+                        Instagram
+                     </span>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="https://dribbble.com/linuscodes" target="_blank">
+                     <span data-content="Dribbble">
+                        Dribbble
+                     </span>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="https://codepen.io/linuscodes" target="_blank">
+                     <span data-content="Codepen">
+                        Codepen
+                     </span>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="http://unsplash.com/linuscodes" target="_blank" rel="noopener">
+                     <span data-content="Unsplash">
+                        Unsplash
+                     </span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+
+         <div class="mobile-btn">
+            <div class="bars">
+               <div class="bar"></div>
+               <div class="bar"></div>
+               <div class="bar"></div>
             </div>
-         </header>
+         </div>
+      </nav>
 
-         <div id="container">
+      <div id="wrapper">

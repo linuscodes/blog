@@ -30,66 +30,101 @@
    <body>
       
 
-      <div id="wrapper">
-         <header class="site-header">
-            <div class="container">
-               <div class="site-title-wrapper">
+      <nav class="main">
+         <div class="branding">
+            <h1>
+               Linus Rogge
+            </h1>
+         </div>
 
-                  <ul class="social-links">
-                     <li>
-                        <a class="button-square" href="/blog/index.xml"><i class="fa fa-rss"></i></a>
-                     </li>
-                     
-                     
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/linuscodes" rel="me">
-                           <i class="fa fa-twitter"></i>
-                        </a>
-                     </li>
-                     
-                     
-                     
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/linuscodes" rel="me">
-                           <i class="fa fa-github-alt"></i>
-                        </li>
-                        </a>
-                     
-                     
-                     
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Instagram" title="Instagram" href="https://instagram.com/linus.codes" rel="me">
-                           <i class="fa fa-instagram"></i>
-                        </a>
-                     </li>
-                     
-                     
-                     
-                     
-                     
-                     <li>
-                        <a class="button-square button-social hint--top" data-hint="Email" title="Email"
-                        href="mailto:moin@linuscodes.com">
-                           <i class="fa fa-envelope"></i>
-                        </a>
-                     </li>
-                     
-                  </ul>
+         <div class="sites">
+            
 
-                  
-                     <h1 class="site-title">
-                        <a title="Digital Notebook of @linus.codes" href="/blog/">Digital Notebook of @linus.codes</a>
-                     </h1>
-                  
-               </div>
+            <ul>
+               <li>
+                  <a href="/">
+                     <span data-content="home">
+                        home
+                     </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/meine-projekte/">
+                     <span data-content="meine projekte">
+                        meine projekte
+                     </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/blog/" class="active">
+                     <span data-content="blog">blog</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/linus-also-ich/">
+                     <span data-content="linus, also ich">linus, also ich</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="/antickern/">
+                     <span data-content="antickern">antickern</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
 
-               <ul class="site-nav">
-                  
-               </ul>
+         <div class="socials">
+            <ul>
+               <li>
+                  <a class="button-square" href="/blog/index.xml">
+                     <span data-content="RSS Feed">RSS Feed</span>
+                  </a> 
+               </li>
+
+               <li>
+                  <a href="https://instagram.com/linus.codes" target="_blank">
+                     <span data-content="Instagram">
+                        Instagram
+                     </span>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="https://dribbble.com/linuscodes" target="_blank">
+                     <span data-content="Dribbble">
+                        Dribbble
+                     </span>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="https://codepen.io/linuscodes" target="_blank">
+                     <span data-content="Codepen">
+                        Codepen
+                     </span>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="http://unsplash.com/linuscodes" target="_blank" rel="noopener">
+                     <span data-content="Unsplash">
+                        Unsplash
+                     </span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+
+         <div class="mobile-btn">
+            <div class="bars">
+               <div class="bar"></div>
+               <div class="bar"></div>
+               <div class="bar"></div>
             </div>
-         </header>
+         </div>
+      </nav>
 
-         <div id="container">
+      <div id="wrapper">
 
 <div class="container">
     <article class="post-container">
@@ -113,16 +148,19 @@
 </div>
 
         <footer class="post-footer clearfix">
+   <div class="post-navigation">
+      <div class="prev-next-navigation">
    
 
-   <div class="post-navigation">
-      
-
+   
+</div>
    </div>
+
+   
 
    <div class="share">
       
-      <a class="icon-twitter" href="https://twitter.com/share?text=Check%20out%20the%20new%20post%20by%20@linus.codes:%20'My%20awesome%20project'%20—%20%2fblog%2fproject%2fmy-awesome-project%2f&url=%2fblog%2fproject%2fmy-awesome-project%2f"
+      <a class="icon-twitter" href="https://twitter.com/share?text=Check%20out%20the%20new%20post%20by%20@linuscodes:%20'My%20awesome%20project'%20—%20&url=https://linuscodes.com%2fblog%2fproject%2fmy-awesome-project%2f"
          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
          <i class="fa fa-twitter"></i>
          <span class="hidden">Share on Twitter</span>
@@ -135,27 +173,19 @@
     </article>
 </div>
 
-</div>
+
 </div>
 
-<footer class="footer">
-   <div class="container">
-      <div class="site-title-wrapper">
-         <h1 class="site-title">
-            <a title="Digital Notebook of @linus.codes" href="/blog/">Digital Notebook of @linus.codes</a>
-         </h1>
-         <a class="button-square button-jump-top js-jump-top" href="#">
-            <i class="fa fa-angle-up"></i>
-         </a>
-      </div>
+<footer class="site-footer">
+   <a title="Digital Notebook of @linus.codes" href="/blog/">Digital Notebook of @linus.codes</a>
+   
+   <a class="button-square button-jump-top js-jump-top" href="#">
+      <i class="fa fa-angle-up"></i>
+   </a>
 
-      <p class="footer-copyright">
-         <span>&copy; 2020 by <a
-               href="https://linuscodes.com/blog">linuscodes</a></span>
-      </p>
-      <p class="footer-copyright">
-      </p>
-   </div>
+   <p class="footer-copyright">
+      <span>&copy; 2019 by <a href="https://linuscodes.com/blog">linuscodes</a></span>
+   </p>
 </footer>
 
 <script src="/blog/js/jquery-1.11.3.min.js"></script>

@@ -5,26 +5,44 @@
     <link>/blog/tags/</link>
     <description>Recent content in Tags on Digital Notebook of @linus.codes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Mar 2020 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 09:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>beginning</title>
-      <link>/blog/tags/beginning/</link>
-      <pubDate>Thu, 05 Mar 2020 11:37:00 +0000</pubDate>
+      <title>conference</title>
+      <link>/blog/tags/conference/</link>
+      <pubDate>Sat, 16 Mar 2019 09:00:00 +0000</pubDate>
       
-      <guid>/blog/tags/beginning/</guid>
+      <guid>/blog/tags/conference/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>start</title>
-      <link>/blog/tags/start/</link>
-      <pubDate>Thu, 05 Mar 2020 11:37:00 +0000</pubDate>
+      <title>event</title>
+      <link>/blog/tags/event/</link>
+      <pubDate>Sat, 16 Mar 2019 09:00:00 +0000</pubDate>
       
-      <guid>/blog/tags/start/</guid>
+      <guid>/blog/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>/blog/tags/meetup/</link>
+      <pubDate>Sat, 16 Mar 2019 09:00:00 +0000</pubDate>
+      
+      <guid>/blog/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social developers club</title>
+      <link>/blog/tags/social-developers-club/</link>
+      <pubDate>Sat, 16 Mar 2019 09:00:00 +0000</pubDate>
+      
+      <guid>/blog/tags/social-developers-club/</guid>
       <description></description>
     </item>
     
