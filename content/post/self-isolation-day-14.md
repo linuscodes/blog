@@ -13,13 +13,10 @@ Hopefully, you're all doing good and not getting crazy inside. Me and my dad jus
 
 Besides the fact that I am almost never bored it is still dope to have some stuff to do and not staring at your screen 24/7. It has already been 14 days spending most of the time at home with sometimes doing a little bike ride.
 
-<div class="layout col-2">
 
 ![](/assets/self-isolation/day-14/bike.jpg)
 
 ![](/assets/self-isolation/day-14/sunset.jpg)
-
-</div>
 
 I'm also spending a lot of my time doing school work which has been sent to us by our teachers. For me, this is waaay better than sitting in school and _trying to learn_. I can do the tasks at my own speed and plan my day like I want. In addition, I am much more productive and can concentrate better. Regarding to this, the current situation is warmly welcome to stay a little longer.
 
