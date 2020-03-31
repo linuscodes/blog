@@ -9,8 +9,8 @@
 </nav>
 
 <div id="post-index" class="container">
-   <h1>
-      {{ print (.Data.Singular | title) " " .Title }}
+   <h1 class="category-heading">
+      {{ print (.Data.Singular | title)}}: <b>"{{.Title }}"</b>
    </h1>
 
    <hr class="full-width">

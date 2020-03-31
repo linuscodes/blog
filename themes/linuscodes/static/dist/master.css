@@ -70,6 +70,10 @@ p {
   font-weight: normal;
 }
 
+.category-heading {
+  font-weight: normal;
+}
+
 a {
   font-family: "vladivostok";
   color: #000;
