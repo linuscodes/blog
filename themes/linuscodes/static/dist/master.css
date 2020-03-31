@@ -614,7 +614,7 @@ footer.site-footer .content a {
   .layout.col-2 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    gap: 0;
+    gap: 20px;
   }
 }
 
