@@ -47,21 +47,16 @@ jQuery(function ($) {
       document.getElementsByClassName('category-link')[i].textContent = newCategoryName;
    }
    
-   function checkTwoColumnLayout() {
+   function checkForTwoColumnLayout() {
       var listOfImages = $('p img');
       
       if( listOfImages.length >= 2 ) {
          $(listOfImages).addClass('two-column-image');
 
-         var parentWrapper = document.getElementsByClassName('two-column-image')[0].parentElement.classList.add('layout', 'col-2');
-         console.log(parentWrapper);
-         // $(parentWrapper).addClass('layout');
-         // console.log(listOfImages);
+         document.getElementsByClassName('two-column-image')[0].parentElement.classList.add('layout', 'col-2');
       }
-
    }
-
-   checkTwoColumnLayout();
+   checkForTwoColumnLayout();
 });
 
 hljs.initHighlightingOnLoad();
