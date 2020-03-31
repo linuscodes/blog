@@ -485,6 +485,8 @@ nav.main {
 .layout {
    &.col-2 {
       width: 100%;
+      margin: 0;
+      padding: 0;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 40px;
