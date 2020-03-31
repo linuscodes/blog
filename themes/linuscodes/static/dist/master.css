@@ -459,6 +459,7 @@ nav.main .content .btn img {
 }
 
 .layout.col-2 {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
