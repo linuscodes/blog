@@ -5,7 +5,8 @@ theme = "linuscodes"
 summaryLength = 25
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
+xhtml = true
 
 [Params]
    mainSections = ["post"]
