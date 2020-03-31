@@ -1,24 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Digital Notebook of @linus.codes</title>
-    <link>/blog/post/</link>
-    <description>Recent content in Posts on Digital Notebook of @linus.codes</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Mar 2019 09:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/blog/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Social Developers Club Conference 2019</title>
-      <link>/blog/sdc-conference-2019/</link>
-      <pubDate>Sat, 16 Mar 2019 09:00:00 +0000</pubDate>
+   <channel>
+      <title>Posts on Digital Notebook of @linus.codes</title>
+      <link>/post/</link>
+      <description>Recent content in Posts on Digital Notebook of @linus.codes</description>
+      <generator>Hugo -- gohugo.io</generator>
+      <lastBuildDate>2020-03-30</lastBuildDate>
       
-      <guid>/blog/sdc-conference-2019/</guid>
-      <description>A gorgeous day is over and I am still overwhelmed by this awesome event. It was a great atmosphere because of all the kind people hanging out at the first SocialDevelopersClub Meeting.
-2 weeks ago, @binicodes sent me a message on Instagram and asked me to join the first meetup by SDC. So, why not? I looked around at their website and immediately, I was really excited about this event, which happened yesterday.</description>
-    </item>
-    
-  </channel>
+         <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+         <title>self isolation day #15</title>
+         <link>/self-isolation-day-15/</link>
+         <pubDate>2020-03-30</pubDate>
+         
+         <guid>/self-isolation-day-15/</guid>
+         <description>&lt;p&gt;I believe there is no better thing to end the day with, than watching &amp;ldquo;spill your guts or fill your guts&amp;rdquo; from the late late show by James Corden 😂 anyways, I hope you&#39;re still doing good!&lt;/p&gt;
+&lt;p&gt;Today has been a quite short day since I stood up at 12:30 PM and sat all the way in front my computer. I was quite productive tho and can&#39;t complain about this situation.&lt;/p&gt;
+&lt;p&gt;Also, I stared doing the #7days7websites challenge where you obviously create one website every day. In case you want to check them, &lt;a href=&#34;https://linuscodes.github.io/7days7websites/&#34;&gt;here you go&lt;/a&gt;. BTW, this is the one I did today:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/self-isolation/day-15/featured.jpg&#34; alt=&#34;&#34;&gt;
+&lt;strong&gt;The design can be found &lt;a href=&#34;https://dribbble.com/shots/10856691-Hero-Headers-Based-on-Source-Wireframes&#34;&gt;on dribbble&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I think there&#39;s no more to say and there will be more content in tomorrows post ✌🏻&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;xoxo, Linus&lt;/strong&gt;&lt;/p&gt;</description>
+      </item>
+      <item>
+         <title>self isolation day #14</title>
+         <link>/self-isolation-day-14/</link>
+         <pubDate>2020-03-29</pubDate>
+         
+         <guid>/self-isolation-day-14/</guid>
+         <description>&lt;p&gt;Hopefully, you&#39;re all doing good and not getting crazy inside. Me and my dad just moved to a new flat which is great to not get bored during these days. There&#39;s still a lot to do, but the fundamentals are set. Luckily I have two rooms now, so I can better seperate between working and relaxing.&lt;/p&gt;
+&lt;p&gt;Besides the fact that I am almost never bored it is still dope to have some stuff to do and not staring at your screen 24/7. It has already been 14 days spending most of the time at home with sometimes doing a little bike ride.&lt;/p&gt;
+&lt;div class=&#34;layout col-2&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/self-isolation/day-14/bike.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/self-isolation/day-14/sunset.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;I&#39;m also spending a lot of my time doing school work which has been sent to us by our teachers. For me, this is waaay better than sitting in school and &lt;em&gt;trying to learn&lt;/em&gt;. I can do the tasks at my own speed and plan my day like I want. In addition, I am much more productive and can concentrate better. Regarding to this, the current situation is warmly welcome to stay a little longer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;In case you are looking for some things to do/read/watch, there are some listed below&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vanschneider.com/a-data-designers-responsibility-during-a-global-crisis&#34;&gt;A data designer’s responsibility during a global crisis — Tobias van Schneider&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fuckdropdowns.com/&#34;&gt;You know what? Fuck dropdowns! — Eric Campbell, Golden Krishna&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/jameesy/an-ex-freelancers-guide-to-getting-your-first-clients-18ao&#34;&gt;An Ex-Freelancers Guide to Getting Your First Clients — James Bedford&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://later.com/blog/instagram-chronological-feed/&#34;&gt;Instagram Tests New Chronological Feed with “Latest Posts” Prototype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/LBi85WjeDyg&#34;&gt;Before You Catch the Virus — Prince Ea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/8U6zU4MXmnA&#34;&gt;If Corona doesn&#39;t kill us, Distance Learning will&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;thank-you&#34;&gt;Thank you!&lt;/h2&gt;
+&lt;p&gt;I really appreciate you reading this post. Please stay healthy and take care of you and everyone else ❤️&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;xoxo, Linus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS: This will be a continuing series, stay tuned!&lt;/em&gt;&lt;/p&gt;</description>
+      </item>
+      <item>
+         <title>Stay safe people!</title>
+         <link>/covid19/</link>
+         <pubDate>2020-03-12</pubDate>
+         
+         <guid>/covid19/</guid>
+         <description>&lt;p&gt;This is just a quick shoutout to everyone to take a little bit care of yourself and others. Since COVID19 is hanging around all over the world, it is important to avoid crowded places and stay at home whenever possible! Also wash your hands peeps, here is how:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/covid19/wash-your-hands.png&#34; alt=&#34;&#34;&gt;
+&lt;strong&gt;Ryan Pattie / BuzzFeed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;And also leave the toilet paper in the stores if you got enough at home. (Except you are going to get the P*rnhub Premium for free for one month, in case you are from Italy xD)&lt;/p&gt;
+&lt;p&gt;On thing which is really funny is that most of the schools around the world are already closed and there’s online lessons. And in Germany? The politicians are still debating whether thousands of students should go to school after the holidays. I mean — What the fuck?&lt;/p&gt;
+&lt;p&gt;Anyway, stay safe and #devinitelyhealthy everybody! See ya ✌️&lt;/p&gt;</description>
+      </item>
+      <item>
+         <title>I am back!</title>
+         <link>/i-am-back/</link>
+         <pubDate>2020-03-07</pubDate>
+         
+         <guid>/i-am-back/</guid>
+         <description>&lt;p&gt;&lt;strong&gt;What’s up everybody?&lt;/strong&gt; Great to see you hanging out over here! As the title already described very straightforward: I am back!&lt;/p&gt;
+&lt;p&gt;This is the very second post to this &lt;em&gt;digital notebook&lt;/em&gt;, which I actually built using &lt;a href=&#34;https://gohugo.io&#34;&gt;GoHugo&lt;/a&gt;. And I am speechless because it’s super simple to use and start creating a small and basic blog or website. I actually did mine following &lt;a href=&#34;https://flaviocopes.com/start-blog-with-hugo/&#34;&gt;this tutorial&lt;/a&gt;. Super simple and easy to understand&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;With that being said, welcome back! It has been a while and I just want to give you a little overview what this blog will be about.&lt;/p&gt;
+&lt;p&gt;Since I’m a person who is more off the quite tribe, most of the things happen inside my head and sometimes it is a great step to write them down and somewhat make them accessible for more people. So here we are!&lt;/p&gt;
+&lt;p&gt;This blog will contain shared thoughts about &lt;strong&gt;design&lt;/strong&gt;, &lt;strong&gt;development&lt;/strong&gt;, &lt;strong&gt;mindset&lt;/strong&gt;, &lt;strong&gt;motivation&lt;/strong&gt; and other random things popping up in my mind.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Again, I am glad you’re here and if you want to kinda stay updated on these posts, feel free to copy &lt;a href=&#34;https://linuscodes.com/blog/index.xml&#34;&gt;https://linuscodes.com/blog/index.xml&lt;/a&gt; into your favourite RSS Reader, such as &lt;em&gt;Feedly&lt;/em&gt; ✌🏻&lt;/p&gt;
+&lt;p&gt;Xoxo, Linus&lt;/p&gt;</description>
+      </item>
+      <item>
+         <title>Social Developers Club Conference 2019</title>
+         <link>/sdc-conference-2019/</link>
+         <pubDate>2019-03-16</pubDate>
+         
+         <guid>/sdc-conference-2019/</guid>
+         <description>&lt;p&gt;A gorgeous day is over and I am still overwhelmed by this awesome event. It was a great atmosphere because of all the kind people hanging out at the first SocialDevelopersClub Conference.&lt;/p&gt;
+&lt;p&gt;2 weeks ago, &lt;a href=&#34;https://instagram.com/binicodes&#34;&gt;@binicodes&lt;/a&gt; sent me a message on Instagram and asked me to join the first meetup by SDC. So, why not? I looked around at their website and immediately, I was really excited about this event, which happened yesterday.&lt;/p&gt;
+&lt;p&gt;At the evening before the 16th March, I packed up all my stuff and thought I was well prepared. But that wasn’t the case, so 10 minutes before I got on my way, I ran through my room and searched for my memory card.&lt;/p&gt;
+&lt;p&gt;Finally, in the car, we drove through the rain of Hamburg and landed at the grey block, the old bunker that is placed in St. Pauli. The inside was much prettier than I expected it to be by looking at the outside, which leveled up the anticipation of mine.&lt;/p&gt;
+&lt;p&gt;In the beginning, I felt a bit insecure, but as I talked to &lt;a href=&#34;http://instagram.com/coding_rob&#34;&gt;@coding_rob&lt;/a&gt; and many other people - that are all listed below - this feeling was gone soon. Not long past this, Julia and Bini started with the introduction to this event and their ideas and future plans.&lt;/p&gt;
+&lt;p&gt;After that, &lt;a href=&#34;http://instagram.com/danielzeitler_&#34;&gt;@danielzeitler_&lt;/a&gt; started with his first talk about Mindfulness in the digital age, which was awesome and lifted up the level of these talks. (He also recorded the talk for his podcast ”Tale of Mind”)&lt;/p&gt;
+&lt;p&gt;After a little break and a banana, the event continued to a very interesting discussion about how to become a developer and what the ways are, to do so.&lt;/p&gt;
+&lt;p&gt;Lunch break with time to connect and to get a delicious soup followed along. Had very nice and inspiring talks!&lt;/p&gt;
+&lt;p&gt;Over a full belly and a coke, the workshops started and I decided to join the one by &lt;a href=&#34;https://instagram.com/coder.rella&#34;&gt;@coder.rella&lt;/a&gt; on the topic how to designs digital product. We thought about building an app about a car service for autonomous cars to book and drive with. I really learned a lot.&lt;/p&gt;
+&lt;p&gt;Coffee break with coffee gossip led us to the last talk by &lt;a href=&#34;http://instagram.com/dimeloper_&#34;&gt;@dimeloper_&lt;/a&gt; about how to nail a coding interview as a developer. He said that it isn&#39;t all about the skills, but about the personality and the good vibes. Because: everybody does not just want the best programmer, but also a cool colleague to work with.&lt;/p&gt;
+&lt;p&gt;The following applause was the beginning of the networking time and the time to meet all the amazing and inspiring people. Sadly, I hadn&#39;t that much time to stay and went home soon. Nevertheless, I hope that I see anyone again soon to talk and connect.  It was amazing, thanks for anybody for joining!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Special thanks to &lt;a href=&#34;http://instagram.com/binicodes&#34;&gt;@binicodes&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/juliah&#34;&gt;@juliah&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/coding.miss.sophie&#34;&gt;@coding.miss.sophie&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/coding_rob&#34;&gt;@coding_rob&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/danielzeitler_&#34;&gt;@danielzeitler_&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/dimeloper_&#34;&gt;@dimeloper_&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/planetmaike&#34;&gt;@planetmaike&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/millywebdeveloper&#34;&gt;@millywebdeveloper&lt;/a&gt;, &lt;a href=&#34;http://instagram.com/mkloeppner&#34;&gt;@mkloeppner&lt;/a&gt; and &lt;a href=&#34;http://instagram.com/christian_elzholz&#34;&gt;@christian_&lt;/a&gt; for these amazing hours and nice talks. I&#39;m looking forward to the next event. ☺️&lt;/p&gt;</description>
+      </item>
+      <item>
+         <title>My awesome project</title>
+         <link>/project/my-awesome-project/</link>
+         <pubDate>2014-11-18</pubDate>
+         
+         <guid>/project/my-awesome-project/</guid>
+         <description>&lt;h2 id=&#34;about-project&#34;&gt;About project&lt;/h2&gt;
+&lt;p&gt;Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.&lt;/p&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;go get -u -v github.com/spf13/hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;docs&#34;&gt;Docs&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://godoc.org/github.com/spf13/hugo&#34;&gt;https://godoc.org/github.com/spf13/hugo&lt;/a&gt;&lt;/p&gt;
+</description>
+      </item>
+      
+   </channel>
 </rss>

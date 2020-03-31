@@ -1,20 +1,44 @@
 <li class="post-stub">
-   <a href="{{ .Permalink }}">
+   <div class="content">
 
-      {{ with .Params.Image }}
-         <img class="post-featured-image" src="{{ . }}">
-      {{ end }}
+      <div class="post-meta">
+         <a href="{{ .Permalink }}" itemprop="url" class="post-link" title="Go to post detail">
+            <h1 class="post-stub-title" itemprop="name">
+               {{ .Title }}
+            </h1>
+            
+            {{ if .Description }}
+               <p class="post-stub-description">{{ .Description }}</p>
+            {{ end }}
+         </a>
+
+         {{ with .Params.featured }}
+            <span class="post-stub-tag">Featured</span>
+         {{ end }}
+
+         <div class="post-summary">
+            {{ .Summary }}
+         </div>
+
+         {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}" class="btn has-arrow has-arrow-right">Read More <img src="/assets/icons/arrow-white.svg" alt=""></a>
+         {{ end }}
+         
+      </div>
       
-      <h4 class="post-stub-title">
-         {{ .Title }}
-      </h4>
+      <div class="post-image">
+         <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">
+            Published {{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}
+         </time>
+         
+         <a href="{{ .Permalink }}" itemprop="url" class="post-link" title="Go to post detail">
+         {{ with .Params.Image }}
+            <div class="featured-image-wrapper">
+               <div class="featured-image" style="background-image: url('{{ . }}')"></div>
+            </div>
+         {{ end }}
+         </a>
+      </div>
 
-      {{ if .Description }}
-         <p class="post-stub-description">{{ .Description }}</p>
-      {{ end }}
-
-      {{ with .Params.featured }}
-         <span class="post-stub-tag">Featured</span>
-      {{ end }}
-   </a>
+   </div>
 </li>

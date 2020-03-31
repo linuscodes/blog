@@ -1,13 +1,14 @@
 +++
 title = "Social Developers Club Conference 2019"
 description = "A damn good experience of meeting like-minded people"
-image = "/blog/assets/sdc-conference-2019/featured.jpg"
+image = "/assets/sdc-conference-2019/featured.jpg"
 author = "Linus"
 date = "2019-03-16T09:00:00Z"
 tags = ["event", "social developers club", "meetup", "conference"]
+categories = "development"
 +++
 
-A gorgeous day is over and I am still overwhelmed by this awesome event. It was a great atmosphere because of all the kind people hanging out at the first SocialDevelopersClub Meeting.
+A gorgeous day is over and I am still overwhelmed by this awesome event. It was a great atmosphere because of all the kind people hanging out at the first SocialDevelopersClub Conference.<!--more-->
 
 2 weeks ago, [@binicodes](https://instagram.com/binicodes) sent me a message on Instagram and asked me to join the first meetup by SDC. So, why not? I looked around at their website and immediately, I was really excited about this event, which happened yesterday.
 
@@ -23,7 +24,7 @@ After a little break and a banana, the event continued to a very interesting dis
 
 Lunch break with time to connect and to get a delicious soup followed along. Had very nice and inspiring talks!
 
-Over a full belly and a coke, the workshops started and I decided to join the one by [@coderella](https://instagram.com/coderella) on the topic how to designs digital product. We thought about building an app about a car service for autonomous cars to book and drive with. I really learned a lot.
+Over a full belly and a coke, the workshops started and I decided to join the one by [@coder.rella](https://instagram.com/coder.rella) on the topic how to designs digital product. We thought about building an app about a car service for autonomous cars to book and drive with. I really learned a lot.
 
 Coffee break with coffee gossip led us to the last talk by [@dimeloper_](http://instagram.com/dimeloper_) about how to nail a coding interview as a developer. He said that it isn't all about the skills, but about the personality and the good vibes. Because: everybody does not just want the best programmer, but also a cool colleague to work with. 
 

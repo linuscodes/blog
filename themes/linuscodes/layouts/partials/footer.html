@@ -2,15 +2,19 @@
 </div>
 
 <footer class="site-footer">
-   <a title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-   
-   <a class="button-square button-jump-top js-jump-top" href="#">
-      <i class="fa fa-angle-up"></i>
+   <a class="btn button-jump-top js-jump-top" href="#">
+      scroll top <img src="/assets/icons/arrow-white.svg">
    </a>
 
-   <p class="footer-copyright">
-      <span>&copy; {{ .Site.LastChange.Format "2006" }} by <a href="https://linuscodes.com/blog">linuscodes</a></span>
-   </p>
+   <div class="content">
+      <a title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}">
+         <h2>{{ .Site.Title }}</h2>
+      </a>
+      
+      <p class="footer-copyright">
+         <span>&copy;{{ .Site.LastChange.Format "2006" }} by <a href="https://linuscodes.com/blog">linuscodes</a></span>
+      </p>
+   </div>
 </footer>
 
 <script src="{{ .Site.BaseURL }}js/jquery-1.11.3.min.js"></script>

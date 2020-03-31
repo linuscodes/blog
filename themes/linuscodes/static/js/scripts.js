@@ -16,6 +16,12 @@ jQuery(function ($) {
       $('html, body').animate({ 'scrollTop': 0 });
    });
 
+   $('.scroll-to-content').on('click', function(e) {
+      e.preventDefault();
+
+      $('html, body').animate({ 'scrollTop': ($('#content').offset().top - 70) })
+   });
+
    // Toggle Mobile Navigation
    $('nav.main .mobile-btn').click(function() {
       $('nav.main .sites').toggleClass('visible');
@@ -23,26 +29,24 @@ jQuery(function ($) {
       $('nav.main .mobile-btn').toggleClass('toggled');
    })
 
-   // Hide navigation when scrolling down and show it, when scrolling up
-   if( $(window).width() >= 872 ) {
-      var lastScrollTop = 0;
-      $(window).scroll(function(event){
-         var st = $(this).scrollTop();
-         if (st > lastScrollTop){
-            if (!$('nav').hasClass('down')) {
-               $('nav').addClass('down');
-            }
-         } else {
-            $('nav').removeClass('down');
-         }
-         
-         lastScrollTop = st;
-         
-         if($(this).scrollTop() <= 0) {
-            $('nav').removeClass('down');
-         };
-      });
-   };
+   $(document).scroll(function() {
+      if($(window).scrollTop() >= 150) {
+         $('.btn.scroll-to-content').addClass('hide');
+      } else {
+         $('.btn.scroll-to-content').removeClass('hide');
+      }
+   })
+
+   $(document).ready(function() {
+      $('.post-content a').attr('target', '_blank');
+   });
+   
+   for (let i = 0; i <= (document.getElementsByClassName('category-link').length - 1); i++) {
+      var newCategoryName = document.getElementsByClassName('category-link')[i].textContent.toString().replace(/-/g, " ");
+
+      document.getElementsByClassName('category-link')[i].textContent = newCategoryName;
+   }
+   
 });
 
 hljs.initHighlightingOnLoad();

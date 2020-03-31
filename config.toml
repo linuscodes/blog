@@ -1,6 +1,11 @@
-baseurl = "/blog/"
+baseurl = "/"
 title = "Digital Notebook of @linus.codes"
 theme = "linuscodes"
+
+summaryLength = 25
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [Params]
    mainSections = ["post"]

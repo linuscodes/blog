@@ -1,9 +1,13 @@
 <div class="prev-next-navigation">
    {{ if .PrevInSection }}
-      <a href="{{.PrevInSection.Permalink}}" class="btn prev">Previous Post</a>
+      <a href="{{.PrevInSection.Permalink}}" class="btn prev has-arrow has-arrow-left">
+         <img src="/assets/icons/arrow-white.svg"> Previous Post
+      </a>
    {{ end }}
 
    {{ if .NextInSection }}
-      <a href="{{.NextInSection.Permalink}}" class="btn next">Next Post</a>
+      <a href="{{.NextInSection.Permalink}}" class="btn next has-arrow has-arrow-right">
+         Next Post <img src="/assets/icons/arrow-white.svg">
+      </a>
    {{ end }}
 </div>
