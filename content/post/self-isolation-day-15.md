@@ -17,6 +17,6 @@ Also, I stared doing the #7days7websites challenge where you obviously create on
 ![](/assets/self-isolation/day-15/featured.jpg)
 **The design can be found [on dribbble](https://dribbble.com/shots/10856691-Hero-Headers-Based-on-Source-Wireframes)**
 
-I think there's no more to say and there will be more content in tomorrows post ✌🏻
+I think there's no more to say so I wish you a great rest of your day! ✌🏻
 
 **xoxo, Linus**
