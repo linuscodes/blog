@@ -241,13 +241,15 @@ nav.main .content .btn img {
   z-index: 2;
 }
 
-.post-list .content .post-meta .post-summary p {
+.post-list .content .post-meta .post-summary, .post-list .content .post-meta .post-summary p {
   font-size: 16px;
   margin: 30px 0;
+  font-family: "p22-mackinac-pro";
+  line-height: 1.8;
   color: gray;
 }
 
-.post-list .content .post-meta .post-summary p:nth-last-child(1)::after {
+.post-list .content .post-meta .post-summary:nth-last-child(1)::after, .post-list .content .post-meta .post-summary p:nth-last-child(1)::after {
   content: '...';
 }
 
