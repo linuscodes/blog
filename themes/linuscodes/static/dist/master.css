@@ -249,10 +249,6 @@ nav.main .content .btn img {
   color: gray;
 }
 
-.post-list .content .post-meta .post-summary:nth-last-child(1)::after, .post-list .content .post-meta .post-summary p:nth-last-child(1)::after {
-  content: '...';
-}
-
 .post-list .content a.post-link {
   position: relative;
   text-decoration: none;

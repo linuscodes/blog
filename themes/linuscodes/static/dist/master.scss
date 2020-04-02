@@ -268,10 +268,6 @@ nav.main {
             font-family: $copy;
             line-height: 1.8;
             color: lighten($color: $dark, $amount: 50%);
-
-            &:nth-last-child(1)::after {
-               content: '...';
-            }
          }
       }
 
