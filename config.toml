@@ -7,7 +7,7 @@ summaryLength = 25
 [Params]
    mainSections = ["post"]
    intro = true
-   headline = "Digital Notebook of @linus.codes"
+   headline = "Digital Notebook of @linuscodes"
    description = "This is my digital Notebook aka blog to frequently share some thoughts on the internet."
    github = "https://github.com/linuscodes"
    twitter = "https://twitter.com/linuscodes"
