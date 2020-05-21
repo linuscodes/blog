@@ -1,13 +1,10 @@
 @import url("/assets/fonts/vladivostok/vladivostok.css");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,17 +76,12 @@ nav.main {
   position: fixed;
   top: 0;
   left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 0 10%;
   z-index: 99;
   background: #fff;
-  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 
@@ -100,8 +92,7 @@ nav.main .branding {
 
 nav.main .branding h1 {
   font-size: 35px;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   font-family: "vladivostok";
   margin: 0 !important;
 }
@@ -119,10 +110,7 @@ nav.main a.active {
 nav.main a span {
   position: relative;
   display: inline-block;
-  -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: -webkit-transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1), -webkit-transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 nav.main a span::before {
@@ -132,20 +120,17 @@ nav.main a span::before {
 }
 
 nav.main a:hover span {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 
 nav.main .sites {
   justify-self: flex-end;
   margin: 0 0 0 auto;
-  -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 nav.main .sites ul {
   list-style: none;
-  -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -157,17 +142,14 @@ nav.main .sites ul li {
 nav.main .socials {
   position: absolute;
   right: 10%;
-  -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   opacity: 0;
-  -webkit-transform: translateY(100px);
-          transform: translateY(100px);
+  transform: translateY(100px);
   pointer-events: none;
 }
 
 nav.main .socials ul {
   list-style: none;
-  -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -196,15 +178,13 @@ nav.main .mobile-btn .bars .bar:not(:last-child) {
 }
 
 nav.main.down .sites ul {
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
+  transform: translateY(-100px);
   opacity: 0;
 }
 
 nav.main.down .socials {
   pointer-events: all;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
@@ -212,13 +192,8 @@ nav.main.down .socials {
   margin-top: 150px;
   padding: 20px 10%;
   margin-bottom: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .site-header .site-title {
@@ -237,10 +212,8 @@ nav.main.down .socials {
 
 .post-list {
   list-style: none;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 70px 40px;
   max-width: 1000px;
 }
@@ -261,13 +234,11 @@ nav.main.down .socials {
   padding-top: 60%;
   width: 100%;
   height: 100%;
-  -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .post-list li .featured-image-wrapper:hover .featured-image {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .post-list li a {
@@ -287,8 +258,7 @@ nav.main.down .socials {
   left: 20px;
   color: #fff;
   background: rgba(0, 0, 0, 0.8);
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   padding: 10px;
   border-radius: 5px;
   letter-spacing: .5px;
@@ -356,8 +326,6 @@ nav.main.down .socials {
 .prev-next-navigation {
   position: relative;
   margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 70%;
   margin-left: auto;
@@ -375,10 +343,8 @@ nav.main.down .socials {
 }
 
 .layout.col-2 {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin: 50px 0;
 }
@@ -395,13 +361,8 @@ nav.main.down .socials {
 
 footer.post-footer {
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 footer.post-footer .post-tags {
@@ -451,106 +412,76 @@ footer.site-footer {
     left: 0;
     width: 100%;
     background: #fff;
-    -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
     padding: 150px 10% 50px 10%;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-    -webkit-transition: -webkit-transform 1.5s 1s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: -webkit-transform 1.5s 1s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateY(-100%);
     transition: transform 1.5s 1s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: transform 1.5s 1s cubic-bezier(0.19, 1, 0.22, 1), -webkit-transform 1.5s 1s cubic-bezier(0.19, 1, 0.22, 1);
   }
   nav.main .sites ul li {
     float: none;
     display: block;
     margin: 10px 0;
     opacity: 0;
-    -webkit-transition: 0.7s cubic-bezier(0.19, 1, 0.22, 1);
     transition: 0.7s cubic-bezier(0.19, 1, 0.22, 1);
   }
   nav.main .sites ul li:nth-child(5) {
-    -webkit-transition-delay: .5s;
-            transition-delay: .5s;
+    transition-delay: .5s;
   }
   nav.main .sites ul li:nth-child(4) {
-    -webkit-transition-delay: .4s;
-            transition-delay: .4s;
+    transition-delay: .4s;
   }
   nav.main .sites ul li:nth-child(3) {
-    -webkit-transition-delay: .3s;
-            transition-delay: .3s;
+    transition-delay: .3s;
   }
   nav.main .sites ul li:nth-child(2) {
-    -webkit-transition-delay: .2s;
-            transition-delay: .2s;
+    transition-delay: .2s;
   }
   nav.main .sites ul li:nth-child(1) {
-    -webkit-transition-delay: .1s;
-            transition-delay: .1s;
+    transition-delay: .1s;
   }
   nav.main .sites ul li a {
     font-size: 18px;
   }
   nav.main .sites.visible {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-    -webkit-transition: -webkit-transform 1.5s 0s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: -webkit-transform 1.5s 0s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateY(-100px);
     transition: transform 1.5s 0s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: transform 1.5s 0s cubic-bezier(0.19, 1, 0.22, 1), -webkit-transform 1.5s 0s cubic-bezier(0.19, 1, 0.22, 1);
   }
   nav.main .sites.visible ul li {
     opacity: 1;
-    -webkit-transition: 2s cubic-bezier(0.19, 1, 0.22, 1);
     transition: 2s cubic-bezier(0.19, 1, 0.22, 1);
   }
   nav.main .sites.visible ul li:nth-child(1) {
-    -webkit-transition-delay: .4s;
-            transition-delay: .4s;
+    transition-delay: .4s;
   }
   nav.main .sites.visible ul li:nth-child(2) {
-    -webkit-transition-delay: .5s;
-            transition-delay: .5s;
+    transition-delay: .5s;
   }
   nav.main .sites.visible ul li:nth-child(3) {
-    -webkit-transition-delay: .6s;
-            transition-delay: .6s;
+    transition-delay: .6s;
   }
   nav.main .sites.visible ul li:nth-child(4) {
-    -webkit-transition-delay: .7s;
-            transition-delay: .7s;
+    transition-delay: .7s;
   }
   nav.main .sites.visible ul li:nth-child(5) {
-    -webkit-transition-delay: .8s;
-            transition-delay: .8s;
+    transition-delay: .8s;
   }
   nav.main .mobile-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
   nav.main .mobile-btn .bars .bar {
-    -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   }
   nav.main .mobile-btn.toggled .bars .bar:nth-child(1) {
-    -webkit-transform-origin: left bottom;
-            transform-origin: left bottom;
-    -webkit-transform: rotate(45deg) translate(3px, -6px);
-            transform: rotate(45deg) translate(3px, -6px);
+    transform-origin: left bottom;
+    transform: rotate(45deg) translate(3px, -6px);
   }
   nav.main .mobile-btn.toggled .bars .bar:nth-child(2) {
     opacity: 0;
   }
   nav.main .mobile-btn.toggled .bars .bar:nth-child(3) {
-    -webkit-transform-origin: left top;
-            transform-origin: left top;
-    -webkit-transform: rotate(-45deg) translate(2px, 7px);
-            transform: rotate(-45deg) translate(2px, 7px);
+    transform-origin: left top;
+    transform: rotate(-45deg) translate(2px, 7px);
   }
 }
 
@@ -562,15 +493,13 @@ footer.site-footer {
 
 @media screen and (max-width: 795px) {
   .post-list {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 700px) {
   .layout.col-2 {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 0;
   }
 }
@@ -625,4 +554,3 @@ footer.site-footer {
     padding: 50px 25px;
   }
 }
-/*# sourceMappingURL=master-backup.css.map */
