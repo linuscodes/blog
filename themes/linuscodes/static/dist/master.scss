@@ -34,22 +34,19 @@ p {
 .post-content {
    h1, h2, h3, h4, h5, h6 {
       margin-bottom: 15px;
-      width: 90%;
-      margin: 0 auto;
+      width: 100%;
       padding: 0 70px;
    }
 
    p {
-      width: 90%;
-      margin: 0 auto;
+      width: 100%;
       margin-bottom: 20px;
       margin-top: 20px;
       padding: 0 70px;
    }
    
    ul, ol {
-      width: 90%;
-      margin: 0 auto;
+      width: 100%;
       margin-bottom: 20px;
       margin-top: 20px;
       padding: 0 70px 0 110px;
@@ -81,17 +78,23 @@ p {
       font-weight: normal;
    }
 
-   // p img.two-column-image {
-   //    width: 50%;
+   blockquote {
+      border-left: 2px solid $link;
+      font-family: $sans;
+      font-size: 18px;
+      padding: 0 70px 0 20px;
+      margin-left: 70px;
+      margin-top: 20px;
+      margin-bottom: 20px;
 
-   //    &:nth-child(1) {
-   //       padding-right: 10px;
-   //    }
-   //    &:nth-child(2) {
-   //       padding-left: 10px;
-   //    }
-   // }
-
+      span {
+         font-family: $copy;
+         font-style: italic;
+         font-size: 15px;
+         display: block;
+         margin-top: 15px;
+      }
+   }
 }
 
 .category-heading {
@@ -150,7 +153,7 @@ a {
 }
 
 hr {
-   width: calc(90% - (2 * 70px));
+   width: calc(100% - 70px * 2);
    border: none;
    height: 1px;
    background: lighten($color: $dark, $amount: 90%);
@@ -172,12 +175,10 @@ nav.main {
    position: fixed;
    top: 0;
    left: 0;
-   padding: 0 10%;
+   padding: 0 15%;
    z-index: 99;
    
    .content {
-      padding: 0 40px;
-      
       .btn {
          margin-bottom: 0;
          
@@ -209,7 +210,7 @@ nav.main {
 
 // container
 .container {
-   padding: 0 10%;
+   padding: 0 15%;
 }
 
 // post list
@@ -373,9 +374,7 @@ nav.main {
 .post-header {
    &.type-post {
       margin-bottom: 50px;
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto;
+      width: 100%;
 
       .featured-image-wrapper {
          max-height: 70vh;
@@ -451,14 +450,16 @@ nav.main {
    }
 }
 
+.post-navigation {
+   padding: 0 70px;
+}
+
 .prev-next-navigation {
    position: relative;
    margin-top: 30px;
    display: flex;
-   width: calc(90% - 70px * 2);
+   width: 100%;
    padding: 0 70px;
-   margin-left: auto;
-   margin-right: auto;
 
    a {
       padding-left: 20px;

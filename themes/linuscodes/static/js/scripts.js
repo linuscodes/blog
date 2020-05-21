@@ -46,18 +46,6 @@ jQuery(function ($) {
 
       document.getElementsByClassName('category-link')[i].textContent = newCategoryName;
    }
-   
-   function checkForTwoColumnLayout() {
-      var listOfImages = $('p img');
-      console.log(listOfImages);
-      
-      if( listOfImages.length > 2 ) {
-         $(listOfImages).addClass('two-column-image');
-
-         document.getElementsByClassName('two-column-image')[0].parentElement.classList.add('layout', 'col-2');
-      }
-   }
-   checkForTwoColumnLayout();
 });
 
 hljs.initHighlightingOnLoad();

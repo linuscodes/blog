@@ -23,22 +23,19 @@ p {
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   margin-bottom: 15px;
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   padding: 0 70px;
 }
 
 .post-content p {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 0 70px;
 }
 
 .post-content ul, .post-content ol {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 0 70px 0 110px;
@@ -68,6 +65,24 @@ p {
 .post-content img + strong {
   color: #b3b3b3;
   font-weight: normal;
+}
+
+.post-content blockquote {
+  border-left: 2px solid #FC1632;
+  font-family: "vladivostok";
+  font-size: 18px;
+  padding: 0 70px 0 20px;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-content blockquote span {
+  font-family: "p22-mackinac-pro";
+  font-style: italic;
+  font-size: 15px;
+  display: block;
+  margin-top: 15px;
 }
 
 .category-heading {
@@ -123,7 +138,7 @@ a.btn.has-arrow.has-arrow-left:hover img {
 }
 
 hr {
-  width: calc(90% - (2 * 70px));
+  width: calc(100% - 70px * 2);
   border: none;
   height: 1px;
   background: #e6e6e6;
@@ -144,12 +159,8 @@ nav.main {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 0 10%;
+  padding: 0 15%;
   z-index: 99;
-}
-
-nav.main .content {
-  padding: 0 40px;
 }
 
 nav.main .content .btn {
@@ -184,7 +195,7 @@ nav.main .content .btn img {
 }
 
 .container {
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 .post-list {
@@ -344,9 +355,7 @@ nav.main .content .btn img {
 
 .post-header.type-post {
   margin-bottom: 50px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 .post-header.type-post .featured-image-wrapper {
@@ -423,16 +432,18 @@ nav.main .content .btn img {
   padding: 10px 15px;
 }
 
+.post-navigation {
+  padding: 0 70px;
+}
+
 .prev-next-navigation {
   position: relative;
   margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: calc(90% - 70px * 2);
+  width: 100%;
   padding: 0 70px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .prev-next-navigation a {

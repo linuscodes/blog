@@ -46,7 +46,6 @@ jQuery(function ($) {
 
       document.getElementsByClassName('category-link')[i].textContent = newCategoryName;
    }
-   
 });
 
 hljs.initHighlightingOnLoad();
