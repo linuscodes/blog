@@ -14,7 +14,6 @@ summaryLength = 25
    instagram = "https://instagram.com/linus.codes"
    email = "moin@linuscodes.com"
    opengraph = true
-   shareTwitter = true
    dateFormat = "Monday, January 2, 2006"
 
 [Permalinks]
