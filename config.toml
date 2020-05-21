@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Digital Notebook of @linus.codes"
+title = "Digital Notebook of @linuscodes"
 theme = "linuscodes"
 
 summaryLength = 25
@@ -11,7 +11,7 @@ summaryLength = 25
    description = "This is my digital Notebook aka blog to frequently share some thoughts on the internet."
    github = "https://github.com/linuscodes"
    twitter = "https://twitter.com/linuscodes"
-   instagram = "https://instagram.com/linus.codes"
+   instagram = "https://instagram.com/linuscodes"
    email = "moin@linuscodes.com"
    opengraph = true
    dateFormat = "Monday, January 2, 2006"
