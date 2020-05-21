@@ -13,13 +13,13 @@ jQuery(function ($) {
    $('.js-jump-top').on('click', function (e) {
       e.preventDefault();
 
-      $('html, body').animate({ 'scrollTop': 0 });
+      $('html, body').animate({ 'scrollTop': 0 }, 1000);
    });
 
    $('.scroll-to-content').on('click', function(e) {
       e.preventDefault();
 
-      $('html, body').animate({ 'scrollTop': ($('#content').offset().top - 70) })
+      $('html, body').animate({ 'scrollTop': ($('#content').offset().top - 70) }, 800)
    });
 
    // Toggle Mobile Navigation
@@ -40,7 +40,7 @@ jQuery(function ($) {
    $(document).ready(function() {
       $('.post-content a').attr('target', '_blank');
    });
-   
+
    for (let i = 0; i <= (document.getElementsByClassName('category-link').length - 1); i++) {
       var newCategoryName = document.getElementsByClassName('category-link')[i].textContent.toString().replace(/-/g, " ");
 
