@@ -17,16 +17,16 @@
       {{- range (where .Site.RegularPages "Type" "not in" "pages" ) -}}
       <item>
          <title>{{ .Title }}</title>
-         <link>{{ .Permalink }}</link>
+         <link>https://blog.linuscodes.com{{ .Permalink }}</link>
          <pubDate>{{ .Date.Format "2006-01-02" | safeHTML }}</pubDate>
-         {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-         <guid>{{ .Permalink }}</guid>
-         <description>{{ .Content | html }}</description>
          <image>
             <url>https://blog.linuscodes.com{{ .Site.Params.Image }}</url>
             <title>{{ .Title }}</title>
             <link>{{ .Premalink }}</link>
          </image>
+         {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+         <guid>https://blog.linuscodes.com{{ .Permalink }}</guid>
+         <description>{{ .Content | html }}</description>
       </item>
       {{ end }}
    </channel>
