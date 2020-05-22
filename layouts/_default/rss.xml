@@ -24,7 +24,7 @@
             <title>{{ .Title }}</title>
             <link>https://blog.linuscodes.com{{ .Permalink }}</link>
          </image>
-         {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+         <author>Linus</author>
          <guid>https://blog.linuscodes.com{{ .Permalink }}</guid>
          <description>{{ .Content | html }}</description>
       </item>
