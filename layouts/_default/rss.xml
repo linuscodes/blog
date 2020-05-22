@@ -25,9 +25,9 @@
             <link>https://blog.linuscodes.com{{ .Permalink }}</link>
          </image>
          <media:group>
-            <media:content medium="image" url="https://blog.linuscodes.com{{ .Params.image }}" />
+            <media:content medium="image" url="https://blog.linuscodes.com.Params.image" />
          </media:group>
-         <media></content
+         </media:content>
          <author>Linus</author>
          <guid>https://blog.linuscodes.com{{ .Permalink }}</guid>
          <description>{{ .Content | html }}</description>
