@@ -5,4 +5,9 @@
 {{ if .Params.image }}
 <meta property="og:image" content="https://blog.linuscodes.com{{ .Params.image }}" />
 <meta property="og:image:url" content="https://blog.linuscodes.com{{ .Params.image }}">
+
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<meta name="twitter:image" content="https://blog.linuscodes.com{{ .Params.image }}">
+<meta name="twitter:card" content="summary_large_image">
 {{ end }}
