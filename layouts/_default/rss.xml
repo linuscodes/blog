@@ -1,5 +1,5 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://blog.linuscodes.com/">
    <channel>
       <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
       <link>{{ .Permalink }}</link>
@@ -24,10 +24,7 @@
             <title>{{ .Title }}</title>
             <link>https://blog.linuscodes.com{{ .Permalink }}</link>
          </image>
-         <media:group>
-            <media:content medium="image" url="https://blog.linuscodes.com.Params.image" />
-         </media:group>
-         </media:content>
+         <media:content medium="image" url="https://blog.linuscodes.com{{.Params.image}}" type="image/jpg" />
          <author>Linus</author>
          <guid>https://blog.linuscodes.com{{ .Permalink }}</guid>
          <description>{{ .Content | html }}</description>
