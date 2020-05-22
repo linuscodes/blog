@@ -22,7 +22,7 @@
          <image>
             <url>https://blog.linuscodes.com{{ .Site.Params.Image }}</url>
             <title>{{ .Title }}</title>
-            <link>{{ .Premalink }}</link>
+            <link>https://blog.linuscodes.com{{ .Permalink }}</link>
          </image>
          {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
          <guid>https://blog.linuscodes.com{{ .Permalink }}</guid>
