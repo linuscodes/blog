@@ -20,7 +20,7 @@
          <link>https://blog.linuscodes.com{{ .Permalink }}</link>
          <pubDate>{{ .Date.Format "2006-01-02" | safeHTML }}</pubDate>
          <image>
-            <url>https://blog.linuscodes.com{{ .Site.Params.Image }}</url>
+            <url>https://blog.linuscodes.com{{ .Params.image }}</url>
             <title>{{ .Title }}</title>
             <link>https://blog.linuscodes.com{{ .Permalink }}</link>
          </image>
