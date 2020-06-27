@@ -1,15 +1,5 @@
 jQuery(function ($) {
 
-   /* ============================================================ */
-   /* Responsive Videos */
-   /* ============================================================ */
-
-   $(".post-content").fitVids();
-
-   /* ============================================================ */
-   /* Scroll To Top */
-   /* ============================================================ */
-
    $('.js-jump-top').on('click', function (e) {
       e.preventDefault();
 
@@ -21,13 +11,6 @@ jQuery(function ($) {
 
       $('html, body').animate({ 'scrollTop': ($('#content').offset().top - 70) }, 800)
    });
-
-   // Toggle Mobile Navigation
-   $('nav.main .mobile-btn').click(function() {
-      $('nav.main .sites').toggleClass('visible');
-      $('.overlay').toggleClass('visible');
-      $('nav.main .mobile-btn').toggleClass('toggled');
-   })
 
    $(document).scroll(function() {
       if($(window).scrollTop() >= 150) {
@@ -47,5 +30,3 @@ jQuery(function ($) {
       document.getElementsByClassName('category-link')[i].textContent = newCategoryName;
    }
 });
-
-hljs.initHighlightingOnLoad();
