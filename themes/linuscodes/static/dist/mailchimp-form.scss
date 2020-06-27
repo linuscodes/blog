@@ -1,3 +1,5 @@
+//compileOnSave
+
 $dark: #000;
 $light: #fff;
 $link: #FC1632;
@@ -23,7 +25,8 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
 
    input {
       padding: 10px 15px;
-      border: 1px solid $dark;
+      border: none;
+      border-radius: 0;
       background: lighten($color: $dark, $amount: 10%);
       color: $light;
       font-family: $sans;
@@ -34,7 +37,7 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
       }
 
       &:-webkit-autofill,
-      &:-webkit-autofill:hover, 
+      &:-webkit-autofill:hover,
       &:-webkit-autofill:focus {
          border: 1px solid rgb(153, 238, 93);
          -webkit-box-shadow: 0 0 0px 1000px #000 inset;
