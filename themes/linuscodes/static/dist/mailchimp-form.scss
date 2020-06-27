@@ -23,6 +23,10 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
       gap: 5px;
    }
 
+   div.mce_inline_error {
+      font-family: $sans;
+   }
+
    input {
       padding: 10px 15px;
       border: none;
@@ -31,6 +35,7 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
       color: $light;
       font-family: $sans;
       font-size: 16px;
+      width: 100%;
 
       &[type=submit] {
          cursor: pointer;
@@ -52,4 +57,9 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
          grid-template-columns: 1fr;
       }
    }
+}
+
+#mce-responses {
+   margin-top: 10px;
+   font-family: $sans;
 }
