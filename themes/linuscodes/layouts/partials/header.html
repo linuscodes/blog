@@ -19,7 +19,7 @@
 
       <link rel="preload" as="style" href="{{ .Site.BaseURL }}assets/fonts/vladivostok/vladivostok.css">
       <link rel="stylesheet" href="https://use.typekit.net/sdu6ktg.css">
-      <link rel="stylesheet" href="{{ .Site.BaseURL }}dist/master.css">
+      <link rel="stylesheet" href="{{ .Site.BaseURL }}dist/master.min.css">
       {{ if .OutputFormats.Get "RSS" }}
       <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate"
          type="application/rss+xml">
