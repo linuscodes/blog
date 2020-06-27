@@ -17,7 +17,7 @@
       <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
       {{ if .Site.Params.opengraph }}{{ partial "opengraph.html" . }}{{ end }}
 
-      <link rel="preload" as="style" href="{{ .Site.BaseURL }}assets/fonts/vladivostok/vladivostok.css">
+      <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/fonts/vladivostok/vladivostok.css">
       <link rel="stylesheet" href="https://use.typekit.net/sdu6ktg.css">
       <link rel="stylesheet" href="{{ .Site.BaseURL }}dist/master.min.css">
       {{ if .OutputFormats.Get "RSS" }}
