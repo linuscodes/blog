@@ -1,7 +1,7 @@
 +++
 title = "self isolation day #15"
 description = "Notes, thoughts and experiences gathered while staying at home. A series."
-image = "/assets/self-isolation/day-15/featured.jpg"
+image = "/assets/self-isolation/day-15/featured.jp2"
 date = "2020-03-30T09:20:00Z"
 tags = ["design", "selfisolation", "daily"]
 categories = ["design", "daily life"]

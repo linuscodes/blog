@@ -1,7 +1,7 @@
 +++
 title = "Social Developers Club Conference 2019"
 description = "A damn good experience of meeting like-minded people"
-image = "/assets/sdc-conference-2019/featured.jpg"
+image = "/assets/sdc-conference-2019/featured.jp2"
 author = "Linus"
 date = "2019-03-16T09:00:00Z"
 tags = ["event", "social developers club", "meetup", "conference"]
@@ -26,7 +26,7 @@ Lunch break with time to connect and to get a delicious soup followed along. Had
 
 Over a full belly and a coke, the workshops started and I decided to join the one by [@coder.rella](https://instagram.com/coder.rella) on the topic how to designs digital product. We thought about building an app about a car service for autonomous cars to book and drive with. I really learned a lot.
 
-Coffee break with coffee gossip led us to the last talk by [@dimeloper_](http://instagram.com/dimeloper_) about how to nail a coding interview as a developer. He said that it isn't all about the skills, but about the personality and the good vibes. Because: everybody does not just want the best programmer, but also a cool colleague to work with. 
+Coffee break with coffee gossip led us to the last talk by [@dimeloper_](http://instagram.com/dimeloper_) about how to nail a coding interview as a developer. He said that it isn't all about the skills, but about the personality and the good vibes. Because: everybody does not just want the best programmer, but also a cool colleague to work with.
 
 The following applause was the beginning of the networking time and the time to meet all the amazing and inspiring people. Sadly, I hadn't that much time to stay and went home soon. Nevertheless, I hope that I see anyone again soon to talk and connect.  It was amazing, thanks for anybody for joining!
 
