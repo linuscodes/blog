@@ -1,12 +1,13 @@
 @import url('/assets/fonts/vladivostok/vladivostok.css');
+@import url('/dist/mailchimp-form.css');
 
 $dark: #000;
 $light: #fff;
 // $link: #1655FC;
 $link: #FC1632;
 
-$copy: 'p22-mackinac-pro';
-$sans: 'vladivostok';
+$copy: 'p22-mackinac-pro', serif;
+$sans: 'vladivostok', sans-serif;
 
 $shadow: 0 0 20px 5px rgba($color: $dark, $alpha: .05);
 $cubic: cubic-bezier(0.19, 1, 0.22, 1);
