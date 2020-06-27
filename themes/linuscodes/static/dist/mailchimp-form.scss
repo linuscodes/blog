@@ -1,0 +1,52 @@
+$dark: #000;
+$light: #fff;
+$link: #FC1632;
+
+$copy: 'p22-mackinac-pro';
+$sans: 'vladivostok';
+
+$shadow: 0 0 20px 5px rgba($color: $dark, $alpha: .05);
+$cubic: cubic-bezier(0.19, 1, 0.22, 1);
+
+.mailchimp-signup-form {
+   margin-top: 100px;
+}
+
+.mailchimp-signup-form form {
+   margin-top: 30px;
+
+   #mc_embed_signup_scroll {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 250px);
+      gap: 5px;
+   }
+
+   input {
+      padding: 10px 15px;
+      border: 1px solid $dark;
+      background: lighten($color: $dark, $amount: 10%);
+      color: $light;
+      font-family: $sans;
+      font-size: 16px;
+
+      &[type=submit] {
+         cursor: pointer;
+      }
+
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover, 
+      &:-webkit-autofill:focus {
+         border: 1px solid rgb(153, 238, 93);
+         -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+         -webkit-text-fill-color: $light;
+      }
+   }
+}
+
+@media screen and (max-width: 780px) {
+   .mailchimp-signup-form form {
+      #mc_embed_signup_scroll {
+         grid-template-columns: 1fr;
+      }
+   }
+}
