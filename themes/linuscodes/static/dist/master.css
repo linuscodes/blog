@@ -1,4 +1,5 @@
 @import url("/assets/fonts/vladivostok/vladivostok.css");
+@import url("/dist/mailchimp-form.css");
 * {
   box-sizing: border-box;
   margin: 0;
