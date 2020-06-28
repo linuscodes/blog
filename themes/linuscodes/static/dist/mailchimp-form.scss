@@ -25,6 +25,23 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
 
    div.mce_inline_error {
       font-family: $sans;
+      margin-bottom: 0 !important;
+   }
+
+   .mc-field-group {
+      position: relative;
+
+      div.mce_inline_error {
+         position: absolute;
+         bottom: 0;
+         transform: translateY(100%);
+         width: 100%;
+
+         @media screen and (max-width: 950px) {
+            position: relative;
+            transform: translateY(0);
+         }
+      }
    }
 
    input {
@@ -47,6 +64,10 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
          border: 1px solid rgb(153, 238, 93);
          -webkit-box-shadow: 0 0 0px 1000px #000 inset;
          -webkit-text-fill-color: $light;
+      }
+
+      &.mce_inline_error {
+         border: 1px solid red;
       }
    }
 }

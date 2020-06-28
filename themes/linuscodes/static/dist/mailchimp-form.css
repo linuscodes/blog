@@ -14,6 +14,25 @@
 
 .mailchimp-signup-form form div.mce_inline_error {
    font-family: "vladivostok";
+   margin-bottom: 0 !important;
+}
+
+.mailchimp-signup-form form .mc-field-group {
+   position: relative;
+}
+
+.mailchimp-signup-form form .mc-field-group div.mce_inline_error {
+   position: absolute;
+   bottom: 0;
+   transform: translateY(100%);
+   width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+   .mailchimp-signup-form form .mc-field-group div.mce_inline_error {
+      position: relative;
+      transform: translateY(0);
+   }
 }
 
 .mailchimp-signup-form form input {
@@ -35,6 +54,10 @@
    border: 1px solid #99ee5d;
    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
    -webkit-text-fill-color: #fff;
+}
+
+.mailchimp-signup-form form input.mce_inline_error {
+   border: 1px solid red;
 }
 
 @media screen and (max-width: 780px) {
