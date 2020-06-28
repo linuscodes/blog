@@ -26,6 +26,7 @@
    bottom: 0;
    transform: translateY(100%);
    width: 100%;
+   background: #FC1632;
 }
 
 @media screen and (max-width: 950px) {
@@ -57,7 +58,7 @@
 }
 
 .mailchimp-signup-form form input.mce_inline_error {
-   border: 1px solid red;
+   border: 1px solid #FC1632;
 }
 
 @media screen and (max-width: 780px) {

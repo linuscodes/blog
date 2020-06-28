@@ -36,6 +36,7 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
          bottom: 0;
          transform: translateY(100%);
          width: 100%;
+         background: $link;
 
          @media screen and (max-width: 950px) {
             position: relative;
@@ -67,7 +68,7 @@ $cubic: cubic-bezier(0.19, 1, 0.22, 1);
       }
 
       &.mce_inline_error {
-         border: 1px solid red;
+         border: 1px solid $link;
       }
    }
 }
