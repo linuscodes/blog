@@ -1,7 +1,7 @@
 +++
 title = "I am back!"
 description = "It has been a while!"
-image = "/assets/i-am-back/featured.jp2"
+image = "/assets/i-am-back/featured.jpg"
 author = "Linus"
 date = "2020-03-07T09:00:00Z"
 tags = ["thoughts", "blog", "gohugo"]

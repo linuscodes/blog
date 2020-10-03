@@ -1,7 +1,7 @@
 +++
 title = "Stay safe people!"
 description = "COVID19 is going crazy"
-image = "/assets/covid19/featured.jp2"
+image = "/assets/covid19/featured.jpg"
 author = "Linus"
 date = "2020-03-12T21:31:00"
 tags = ["covid19", "staysafe", "devinitelyhealthy"]

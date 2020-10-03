@@ -1,7 +1,7 @@
 +++
 title = "Social Developers Club Conference 2019"
 description = "A damn good experience of meeting like-minded people"
-image = "/assets/sdc-conference-2019/featured.jp2"
+image = "/assets/sdc-conference-2019/featured.jpg"
 author = "Linus"
 date = "2019-03-16T09:00:00Z"
 tags = ["event", "social developers club", "meetup", "conference"]
