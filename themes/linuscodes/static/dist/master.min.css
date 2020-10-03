@@ -45,7 +45,7 @@ p {
 .post-content a {
   font-family: "vladivostok", sans-serif;
   font-weight: bold;
-  color: #FC1632 !important;
+  color: #fa8d8d !important;
   text-decoration: none; }
 
 .post-content .post-featured-image {
@@ -56,7 +56,7 @@ p {
   font-weight: normal; }
 
 .post-content blockquote {
-  border-left: 2px solid #FC1632;
+  border-left: 2px solid #fa8d8d;
   font-family: "vladivostok", sans-serif;
   font-size: 18px;
   padding: 0 70px 0 20px;
@@ -80,7 +80,7 @@ a {
   a.link {
     font-family: "vladivostok", sans-serif;
     font-weight: bold;
-    color: #FC1632 !important;
+    color: #fa8d8d !important;
     text-decoration: none;
     text-transform: capitalize; }
   a.btn {
@@ -399,7 +399,7 @@ footer {
       footer.site-footer .content p {
         font-family: "vladivostok", sans-serif; }
       footer.site-footer .content a {
-        color: #FC1632;
+        color: #fa8d8d;
         text-decoration: none; }
 
 @media screen and (max-width: 1110px) {
