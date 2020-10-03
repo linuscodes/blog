@@ -1,13 +1,13 @@
 //compileOnSave
 
 @import url('/dist/mailchimp-form.css');
+@import url('/assets/fonts/jetbrains-mono/style.css');
 
 $dark: #000;
 $light: #fff;
-// $link: #1655FC;
 $link: #FC1632;
 
-$copy: 'p22-mackinac-pro', serif;
+$copy: 'jetbrains-mono', serif;
 $sans: 'vladivostok', sans-serif;
 
 $shadow: 0 0 20px 5px rgba($color: $dark, $alpha: .05);
@@ -30,8 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
    font-family: $copy;
    line-height: 1.8;
-   // letter-spacing: .5px;
-   font-size: 18px;
+   font-size: 13px;
 }
 
 .post-content {
@@ -103,7 +102,6 @@ p {
 .category-heading {
    font-weight: normal;
 }
-
 
 a {
    font-family: $sans;
@@ -267,11 +265,15 @@ nav.main {
 
       .post-meta {
          .post-summary, .post-summary p {
-            font-size: 16px;
+            font-size: 13px;
             margin: 30px 0;
             font-family: $copy;
             line-height: 1.8;
             color: lighten($color: $dark, $amount: 50%);
+         }
+
+         .post-stub-description {
+            font-size: 15px;
          }
       }
 
