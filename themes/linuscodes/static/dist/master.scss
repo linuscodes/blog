@@ -37,14 +37,17 @@ p {
    h1, h2, h3, h4, h5, h6 {
       margin-bottom: 15px;
       width: 100%;
-      padding: 0 70px;
+      max-width: 600px;
+      margin-left: auto;
    }
 
    p {
       width: 100%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
       margin-bottom: 20px;
       margin-top: 20px;
-      padding: 0 70px;
    }
 
    ul, ol {
@@ -81,13 +84,15 @@ p {
    }
 
    blockquote {
-      border-left: 2px solid $link;
       font-family: $sans;
-      font-size: 18px;
-      padding: 0 70px 0 20px;
-      margin-left: 70px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      font-size: 38px;
+      text-align: center;
+      padding: 0;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
 
       span {
          font-family: $copy;
@@ -154,7 +159,10 @@ a {
 }
 
 hr {
-   width: calc(100% - 70px * 2);
+   width: 100%;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
    border: none;
    height: 1px;
    background: lighten($color: $dark, $amount: 90%);
@@ -749,6 +757,14 @@ footer {
 
       hr {
          width: calc(100% - 25px * 2);
+      }
+
+      blockquote {
+         width: 100%;
+         padding-left: 25px;
+         padding-right: 25px;
+         font-size: 28px;
+         text-align: left;
       }
    }
 
