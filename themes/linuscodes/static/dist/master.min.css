@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: "jetbrains-mono", serif;
   line-height: 1.8;
-  font-size: 13px; }
+  font-size: 14px; }
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   margin-bottom: 15px;
@@ -39,7 +39,7 @@ p {
   margin-top: 20px;
   padding: 0 70px 0 110px; }
   .post-content ul li, .post-content ol li {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 10px;
     line-height: 1.8; }
     .post-content ul li a, .post-content ol li a {
