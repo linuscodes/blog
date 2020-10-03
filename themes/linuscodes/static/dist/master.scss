@@ -39,6 +39,7 @@ p {
       width: 100%;
       max-width: 600px;
       margin-left: auto;
+      margin-right: auto;
    }
 
    p {
@@ -52,9 +53,12 @@ p {
 
    ul, ol {
       width: 100%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
       margin-bottom: 20px;
       margin-top: 20px;
-      padding: 0 70px 0 110px;
 
       li {
          font-size: 14px;
@@ -72,6 +76,11 @@ p {
       font-weight: bold;
       color: $link !important;
       text-decoration: none;
+      transition: opacity 200ms ease;
+
+      &:hover {
+         opacity: 0.5;
+      }
    }
 
    .post-featured-image {
