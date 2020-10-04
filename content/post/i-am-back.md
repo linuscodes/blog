@@ -13,7 +13,7 @@ This is the very second post to this _digital notebook_, which I actually built 
 - - - -
 With that being said, welcome back! It has been a while and I just want to give you a little overview what this blog will be about.
 
-Since I’m a person who is more off the quite tribe, most of the things happen inside my head and sometimes it is a great step to write them down and somewhat make them accessible for more people. So here we are!
+Since I’m a person who is more off the quiet tribe, most of the things happen inside my head and sometimes it is a great step to write them down and somewhat make them accessible for more people. So here we are!
 
 This blog will contain shared thoughts about **design**, **development**, **mindset**, **motivation** and other random things popping up in my mind.
 - - - -
