@@ -3,8 +3,6 @@
 <div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
    {{ partial "intro.html" . }}
 
-   <hr class="full-width">
-
    <ol class="post-list">
       {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
       {{ range $pag.Pages.ByPublishDate.Reverse }}
