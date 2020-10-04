@@ -1,15 +1,15 @@
 jQuery(function ($) {
-
+   
    $('.js-jump-top').on('click', function (e) {
       e.preventDefault();
 
-      $('html, body').animate({ 'scrollTop': 0 }, 1000);
+      $('html, body').animate({ 'scrollTop': 0 }, 1000, $.bez([0.770, 0, 0.175, 1]));
    });
 
    $('.scroll-to-content').on('click', function(e) {
       e.preventDefault();
 
-      $('html, body').animate({ 'scrollTop': ($('#content').offset().top - 70) }, 800)
+      $('html, body').animate({ 'scrollTop': ($('#content').offset().top - 70) }, 800, $.bez([0.770, 0, 0.175, 1]))
    });
 
    $(document).scroll(function() {
