@@ -1,0 +1,41 @@
+footer {
+   position: relative;
+
+   &.post-footer {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   &.site-footer {
+      background: $dark;
+      color: $light;
+      margin-top: 200px;
+      display: block;
+
+      .button-jump-top {
+         position: absolute;
+         margin-bottom: 0;
+         transform: translateX(50%) translateY(-100%);
+         right: 50%;
+
+         img {
+            transform: rotate(90deg);
+            margin-left: 25px;
+         }
+      }
+
+      .content {
+         padding: 100px 10%;
+
+         p {
+            font-family: $sans;
+         }
+
+         a {
+            color: $link;
+            text-decoration: none;
+         }
+      }
+   }
+}

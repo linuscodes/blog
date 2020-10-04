@@ -1,0 +1,19 @@
+nav.main {
+   width: 100%;
+   margin: 0 auto;
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 0 15%;
+   z-index: 99;
+
+   .content {
+      .btn {
+         margin-bottom: 0;
+
+         img {
+            margin-right: 25px;
+         }
+      }
+   }
+}

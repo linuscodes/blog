@@ -1,0 +1,29 @@
+{{ define "content" }}
+
+<div id="post-index" class="container">
+   {{ partial "intro.html" . }}
+
+   <ol class="post-list">
+      {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+      {{ range $pag.Pages.ByPublishDate.Reverse }}
+      {{ partial "post-stub.html" . }}
+      {{ end }}
+
+      {{ partial "category-list.html" . }}
+   </ol>
+
+   <!-- filtered list by category -->
+   <!-- <ol>
+      {{ range .Site.Taxonomies.categories.random }}
+      <li>{{ .Page.Title }}</li>
+      {{ end }}
+   </ol> -->
+
+   <hr class="full-width">
+
+   <div class="post-navigation">
+      {{ partial "pagination.html" . }}
+   </div>
+</div>
+
+{{ end }}

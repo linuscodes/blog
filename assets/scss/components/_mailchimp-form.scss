@@ -1,0 +1,75 @@
+.mailchimp-signup-form {
+   margin-top: 100px;
+}
+
+.mailchimp-signup-form form {
+   margin-top: 30px;
+
+   #mc_embed_signup_scroll {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 250px);
+      gap: 5px;
+   }
+
+   div.mce_inline_error {
+      font-family: $sans;
+      margin-bottom: 0 !important;
+   }
+
+   .mc-field-group {
+      position: relative;
+
+      div.mce_inline_error {
+         position: absolute;
+         bottom: 0;
+         transform: translateY(100%);
+         width: 100%;
+         background: $link;
+
+         @media screen and (max-width: 950px) {
+            position: relative;
+            transform: translateY(0);
+         }
+      }
+   }
+
+   input {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 0;
+      background: lighten($color: $dark, $amount: 10%);
+      color: $light;
+      font-family: $sans;
+      font-size: 16px;
+      width: 100%;
+
+      &[type=submit] {
+         cursor: pointer;
+      }
+
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover,
+      &:-webkit-autofill:focus {
+         border: 1px solid rgb(153, 238, 93);
+         -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+         -webkit-text-fill-color: $light;
+      }
+
+      &.mce_inline_error {
+         border: 1px solid $link;
+      }
+   }
+}
+
+@media screen and (max-width: 780px) {
+   .mailchimp-signup-form form {
+      #mc_embed_signup_scroll {
+         grid-template-columns: 1fr;
+      }
+   }
+}
+
+#mce-responses {
+   margin-top: 10px;
+   font-family: $sans;
+}

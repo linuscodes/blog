@@ -1,0 +1,28 @@
+{{ define "content" }}
+
+<nav class="main">
+   <div class="content">
+      <a href="{{ .Site.BaseURL }}" class="btn has-arrow has-arrow-left">
+         <img src="/assets/icons/arrow-white.svg"> Home
+      </a>
+   </div>
+</nav>
+
+<div id="post-index" class="container">
+   <h1 class="category-heading">
+      {{ print (.Data.Singular | title) }}: <b>"{{.Title }}"</b>
+   </h1>
+
+   <ol class="post-list category-post-list">
+      {{ $pag := .Paginate .Pages }}
+      {{ range $pag.Pages }}
+      {{ partial "page-stub.html" . }}
+      {{ end }}
+   </ol>
+
+   <div class="post-navigation">
+      {{ partial "pagination.html" . }}
+   </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,14 @@
+<div class="categories">
+   <h1>
+      Popular Topics
+   </h1>
+   <ul class="category-list">
+      {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+      <li>
+         <a href="{{ "categories/" | absLangURL }}{{ $name | urlize }}" class="link category-link">
+            {{ $name | title }}
+         </a>
+      </li>
+      {{ end }}
+   </ul>
+</div>

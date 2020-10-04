@@ -1,0 +1,23 @@
+.category-heading {
+	font-weight: normal;
+	margin-bottom: 100px;
+}
+
+.categories {
+   h1 {
+      margin-bottom: 15px;
+   }
+
+   .category-list {
+      list-style: none;
+
+      li {
+         font-size: 20px;
+         margin-bottom: 5px;
+
+         a {
+            font-family: $sans;
+         }
+      }
+   }
+}
