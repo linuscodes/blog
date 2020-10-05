@@ -451,7 +451,7 @@ img {
     padding: 0 40px; }
   .post-navigation {
     padding: 40px; }
-  .prev-next-navigation, hr {
+  .prev-next-navigation {
     width: calc(90% - 40px * 2); } }
 
 @media screen and (max-width: 815px) {
@@ -465,14 +465,11 @@ img {
   .post-content h4,
   .post-content h5,
   .post-content h6,
-  .share,
   .prev-next-navigation,
   footer.post-footer .post-tags {
     width: 100%; }
   .post-content ul, .post-content ol {
-    padding-left: 35px; }
-  hr {
-    width: calc(100% - 80px); } }
+    padding-left: 35px; } }
 
 @media screen and (max-width: 795px) {
   .post-list {
@@ -503,11 +500,7 @@ img {
     padding-left: 5px; }
   .post-navigation {
     padding-left: 0;
-    padding-right: 0; }
-  .share {
-    padding: 0; }
-  hr {
-    width: 100%; } }
+    padding-right: 0; } }
 
 @media screen and (max-width: 490px) {
   .has-padding {
@@ -518,7 +511,6 @@ img {
     padding: 0 25px; }
   .post-header.type-post,
   .post-content p,
-  .share,
   footer.post-footer .post-tags,
   .post-content h1,
   .post-content h2,
@@ -531,8 +523,6 @@ img {
     padding-right: 25px; }
   .post-content ul, .post-content ol {
     padding-left: 45px; }
-  .post-content hr {
-    width: calc(100% - 25px * 2); }
   .post-content blockquote {
     width: 100%;
     padding-left: 25px;
@@ -570,6 +560,8 @@ img {
     background: #000; }
   hr {
     background: rgba(255, 255, 255, 0.1); }
+    hr::before, hr::after {
+      background: rgba(255, 255, 255, 0.1); }
   h1, h2, .number {
     color: #fff; }
   a {
