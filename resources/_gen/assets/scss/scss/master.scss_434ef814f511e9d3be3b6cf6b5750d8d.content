@@ -380,6 +380,14 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 0 20px;
     padding: 70px; }
+    .post-header.type-post .layout .instagram-link a {
+      font-family: "vladivostok", sans-serif;
+      font-weight: bold;
+      color: #fa8d8d !important;
+      text-decoration: none;
+      transition: opacity 150ms ease; }
+      .post-header.type-post .layout .instagram-link a:hover {
+        opacity: 0.5; }
     .post-header.type-post .layout .reading-time {
       margin-top: 30px; }
     .post-header.type-post .layout .post-meta .post-date {
@@ -389,7 +397,7 @@ img {
       font-family: "vladivostok", sans-serif; }
     .post-header.type-post .layout .post-meta .post-tags {
       display: block;
-      line-height: 3; }
+      line-height: 2.5; }
       .post-header.type-post .layout .post-meta .post-tags .tag-link {
         background: #f2f2f2;
         padding: 5px 15px;

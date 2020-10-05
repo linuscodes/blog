@@ -29,6 +29,12 @@
             {{ end }}
          </div>
 
+         {{ with .Params.instagramLink }}
+         <div class="instagram-link">
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer">View on instagram</a>
+         </div>
+         {{ end }}
+
          <div class="reading-time">
             <p>
                Reading time: {{ .ReadingTime }} minutes

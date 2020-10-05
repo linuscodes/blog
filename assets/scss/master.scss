@@ -127,9 +127,23 @@ img {
          gap: 0 20px;
          padding: 70px;
 
+			.instagram-link {
+				a {
+					font-family: $sans;
+					font-weight: bold;
+					color: $link !important;
+					text-decoration: none;
+					transition: opacity 150ms ease;
+			
+					&:hover {
+						opacity: 0.5;
+					}
+				}
+			}
+
          .reading-time {
             margin-top: 30px;
-         }
+			}
 
          .post-meta {
             .post-date {
@@ -141,7 +155,7 @@ img {
 
             .post-tags {
                display: block;
-               line-height: 3;
+               line-height: 2.5;
 
                .tag-link {
                   background: #f2f2f2;
