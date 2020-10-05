@@ -22,18 +22,33 @@
 @import "templates/category-list";
 
 hr {
-   width: 100%;
-   max-width: 600px;
-   margin-left: auto;
-   margin-right: auto;
+   width: 8px;
+   height: 8px;
    border: none;
-   height: 1px;
-   background: lighten($color: $dark, $amount: 90%);
-   margin: 100px auto;
+   background: lighten($dark, 90%);
+   margin: 50px auto;
+   border-radius: 50%;
+   position: relative;
+   overflow: visible;
 
-   &.full-width {
-      width: 100%;
-   }
+	&::before,
+	&::after {
+		content: "";
+		display: inline-block;
+		background: lighten($dark, 90%);
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		position: absolute;
+	}
+
+	&::before {
+		transform: translate(-12px, 0);
+	}
+
+	&::after {
+		transform: translate(12px, 0);
+	}
 }
 
 img {

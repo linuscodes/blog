@@ -304,16 +304,26 @@ footer {
       font-family: "vladivostok", sans-serif; }
 
 hr {
-  width: 100%;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 8px;
+  height: 8px;
   border: none;
-  height: 1px;
   background: #e6e6e6;
-  margin: 100px auto; }
-  hr.full-width {
-    width: 100%; }
+  margin: 50px auto;
+  border-radius: 50%;
+  position: relative;
+  overflow: visible; }
+  hr::before, hr::after {
+    content: "";
+    display: inline-block;
+    background: #e6e6e6;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute; }
+  hr::before {
+    transform: translate(-12px, 0); }
+  hr::after {
+    transform: translate(12px, 0); }
 
 img {
   max-width: 100%; }
